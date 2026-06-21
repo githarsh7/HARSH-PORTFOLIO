@@ -116,7 +116,7 @@ export default function Hero() {
 
           {/* Action buttons */}
           <div className="hero-fade-in flex flex-wrap gap-4 mb-10">
-            
+            <a
               href="/harshaasg-resume.pdf"
               target="_blank"
               rel="noreferrer"
@@ -125,7 +125,7 @@ export default function Hero() {
               View Resume
               <LuArrowUpRight className="text-lg" />
             </a>
-            
+            <a
               href="#work"
               onClick={(e) => {
                 e.preventDefault();
@@ -181,7 +181,7 @@ export default function Hero() {
            {/* Social icons toolbar floating on side */}
               <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 flex flex-row gap-3 z-20 sm:left-auto sm:translate-x-0 sm:-left-8 sm:bottom-auto sm:top-1/2 sm:-translate-y-1/2 sm:flex-col">
               {socialLinks.map((social, index) => (
-                
+                <a
                   key={index}
                   href={social.url}
                   target="_blank"
@@ -199,4 +199,4 @@ export default function Hero() {
       </div>
     </section>
   );
-            }
+}
