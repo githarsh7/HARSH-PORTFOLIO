@@ -60,7 +60,7 @@ export default function Contact({ onShowToast }) {
         {/* Left Side */}
         <div className="lg:col-span-6 space-y-8 text-left">
           <div className="space-y-4">
-            <span className="text-xs font-mono uppercase tracking-[0.25em] text-luxury-yellow/80">Get In Touch</span>
+            <span className="text-xs font-mono uppercase tracking-[0.25em] text-luxury-yellow/80">Get In Touch!</span>
             <h3 className="font-display font-black text-5xl md:text-6xl uppercase tracking-tight text-white leading-none">
               Let's Talk
             </h3>
@@ -138,7 +138,7 @@ export default function Contact({ onShowToast }) {
             <div className="flex flex-col gap-2">
               <label className="text-xs uppercase tracking-wider text-zinc-500 font-display">Message</label>
               <textarea
-                required rows="5" placeholder="Tell me about your idea..."
+                required rows="5" placeholder="Tell me about your idea!"
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 className="w-full bg-zinc-950/60 border border-white/10 rounded-xl px-5 py-3.5 text-white placeholder-zinc-500 focus:outline-none focus:border-white/40 transition-colors resize-none"

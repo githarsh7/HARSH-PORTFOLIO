@@ -1,16 +1,72 @@
-# React + Vite
+# Harsh's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React and Vite, showcasing my work, skills, and projects as a Frontend Developer - Fast to load easy to navigate and (hopefully) a little more interesting than my résumé.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I build clean, responsive and functional user interfaces, and I occasionally convince CSS to do what I want on the first try. This site is where I bring my projects together in one place instead of scattering them across a dozen tabs no one will ever open.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- ESLint
+- GSAP
+- BootStrap
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design that behaves on both desktop and mobile
+- Fast load times, courtesy of Vite
+- Project showcase section
+- Clean, minimal UI with no unnecessary clutter
+
+## Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/githarsh7/HARSH-S-PORTFOLIO.git
+cd HARSH-S-PORTFOLIO
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Folder Structure
+
+```
+HARSH-S-PORTFOLIO/
+├── public/        # Static assets
+├── src/           # Source code
+├── index.html     # Entry point
+└── package.json   # Dependencies and scripts
+```
+
+## Contact
+
+If something on this site breaks, that's a feature I haven't documented yet. Feel free to reach out for collaborations, opportunities or general feedback.
+
+---
+## Connect with Me 🤝 :
+- LinkedIn : [HARSHAA SG](https://www.linkedin.com/in/harshaasg)  
+- Gmail : harshaavardhan8@gmail.com
+
+⭐ Feel free to fork this project and improve it!
+
+---
+
+## License
+
+This project is open for viewing and inspiration. Please don't claim it as your own; that would be an awkward conversation for both of us.

@@ -105,6 +105,13 @@ export default function Portfolio() {
         </h2>
       </div>
 
+      {/* Label above the card */}
+      <div className="relative z-20 mb-6 select-none pointer-events-none">
+        <span className="text-xs sm:text-sm font-mono uppercase tracking-[0.3em] text-white/60">
+          Move the cursor to unlock
+        </span>
+      </div>
+
       {/* Primary Banner Image Frame (Centered 1:1 Square Redesign) */}
       <div
         ref={frameRef}
@@ -134,12 +141,6 @@ export default function Portfolio() {
             alt="Sharp Reveal"
             className="w-full h-full object-cover object-top pointer-events-none"
           />
-        </div>
-
-        {/* Text inside the banner */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center select-none pointer-events-none z-20 mix-blend-difference">
-          <span className="text-xs font-mono uppercase tracking-[0.3em] text-white/45 mb-2">Scan with cursor</span>
-          <h3 className="font-display font-bold text-3xl uppercase text-white/75">HARSHAA SG</h3>
         </div>
 
         {/* Layer 3: Scanner Circle Follower (Floating border on top - resized to 170px) */}

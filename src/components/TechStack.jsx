@@ -29,9 +29,9 @@ export default function TechStack() {
 
   const stackData = {
     backend: [
-      { name: 'Node.js', emoji: '🟢', note: 'Runtime Environment', color: 'hover:shadow-[0_0_30px_rgba(104,160,99,0.3)] hover:border-[#68a063]/50' },
-      { name: 'Express.js', emoji: '⚡', note: 'Web Framework', color: 'hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:border-white/30' },
-      { name: 'MongoDB', emoji: '🍃', note: 'NoSQL Database', color: 'hover:shadow-[0_0_30px_rgba(71,162,72,0.3)] hover:border-[#47a248]/50' },
+      { name: 'Node.js', icon: '/assets/nodejs.png', note: 'Runtime Environment', color: 'hover:shadow-[0_0_30px_rgba(104,160,99,0.3)] hover:border-[#68a063]/50' },
+      { name: 'Express.js', icon: '/assets/expressjs.png', note: 'Web Framework', color: 'hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:border-white/30' },
+      { name: 'MongoDB', icon: '/assets/mongodb.png', note: 'NoSQL Database', color: 'hover:shadow-[0_0_30px_rgba(71,162,72,0.3)] hover:border-[#47a248]/50' },
     ],
     frontend: [
       { name: 'React.js', icon: '/assets/React.png', note: 'UI Library', color: 'hover:shadow-[0_0_30px_rgba(97,218,251,0.3)] hover:border-[#61dafb]/50' },
@@ -39,10 +39,10 @@ export default function TechStack() {
     { name: 'HTML5 + CSS3', icons: ['/assets/HTML5.png', '/assets/CSS3.png'], note: 'Structure & Style', color: 'hover:shadow-[0_0_30px_rgba(227,76,38,0.3)] hover:border-[#e34c26]/50' },
     ],
     tools: [
-      { name: 'Git & GitHub', emoji: '🐙', note: 'Version Control', color: 'hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:border-white/30' },
-      { name: 'REST APIs', emoji: '🔌', note: 'API Design', color: 'hover:shadow-[0_0_30px_rgba(250,204,21,0.2)] hover:border-luxury-yellow/30' },
-      { name: 'Vercel', emoji: '▲', note: 'Deployment', color: 'hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:border-white/30' },
-    ]
+      { name: 'Git & GitHub', icons: ['/assets/git.png', '/assets/github.png'], note: 'Version Control', color: 'hover:shadow-[0_0_30px_rgba(227,76,38,0.3)] hover:border-[#e34c26]/50' },
+      { name: 'REST APIs', icon: '/assets/restapi.png', note: 'API Design', color: 'hover:shadow-[0_0_30px_rgba(250,204,21,0.2)] hover:border-luxury-yellow/30' },
+      { name: 'Vercel', icon: '/assets/vercel.svg', note: 'Deployment', color: 'hover:shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:border-white/30' },
+    ] 
   };
 
   return (

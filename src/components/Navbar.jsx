@@ -199,8 +199,8 @@ export default function Navbar({ theme, setTheme, onAddTestimonial }) {
               <LuX className="text-zinc-400 hover:text-white" />
             </button>
 
-            <h3 className="font-display font-bold text-2xl mb-2 text-white">Add Testimonial</h3>
-            <p className="text-sm text-zinc-400 mb-6">Leave your review to showcase on the live portfolio marquee.</p>
+            <h3 className="font-display font-bold text-2xl mb-2 text-white">ADD TESTIMONIAL</h3>
+            <p className="text-sm text-zinc-400 mb-6">leave your review to showcase on the live portfolio marquee.</p>
 
             <form onSubmit={handleFormSubmit} className="space-y-4">
               <div>
@@ -208,7 +208,7 @@ export default function Navbar({ theme, setTheme, onAddTestimonial }) {
                 <input
                   type="text"
                   required
-                  placeholder="Your Name"
+                  placeholder="Your Name!!"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="w-full bg-zinc-900/60 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none focus:border-luxury-yellow/50 transition-colors"
@@ -219,7 +219,7 @@ export default function Navbar({ theme, setTheme, onAddTestimonial }) {
                 <label className="block text-xs uppercase tracking-wider text-zinc-400 mb-1">Role / Company</label>
                 <input
                   type="text"
-                  placeholder="e.g. CEO, Tech Lead"
+                  placeholder="ex - CEO , Tech Lead"
                   value={formData.role}
                   onChange={(e) => setFormData({ ...formData, role: e.target.value })}
                   className="w-full bg-zinc-900/60 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none focus:border-luxury-yellow/50 transition-colors"
@@ -231,7 +231,7 @@ export default function Navbar({ theme, setTheme, onAddTestimonial }) {
                 <textarea
                   required
                   rows="4"
-                  placeholder="Share your experience working with me..."
+                  placeholder="Leave your Feedback here!"
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="w-full bg-zinc-900/60 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-zinc-500 focus:outline-none focus:border-luxury-yellow/50 transition-colors resize-none"
