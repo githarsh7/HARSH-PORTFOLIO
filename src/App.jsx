@@ -254,8 +254,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
               aria-label="Contact on WhatsApp"
-              className="w-12 h-12 rounded-full bg-zinc-900 hover:bg-[#25D366] text-zinc-400 hover:text-white border border-white/10 hover:border-transparent flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110"
-            >
+              className="w-12 h-12 rounded-full bg-zinc-900 hover:bg-[#25D366] text-zinc-400 hover:text-white border border-white/10 hover:border-transparent flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110
               <FaWhatsapp className="text-xl" />
             </a>
             
