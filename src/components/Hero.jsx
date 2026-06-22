@@ -117,7 +117,7 @@ export default function Hero() {
           {/* Action buttons */}
           <div className="hero-fade-in flex flex-wrap gap-4 mb-10">
             <a
-              href="/harshaasg-resume.pdf"
+              href="/sgharshaa-resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 bg-gradient-to-r from-luxury-yellow to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 text-zinc-950 font-display font-semibold px-8 py-4 rounded-full shadow-[0_15px_30px_rgba(250,204,21,0.2)] hover:shadow-[0_20px_40px_rgba(250,204,21,0.3)] hover:-translate-y-1 active:translate-y-0 transition-all duration-300"
