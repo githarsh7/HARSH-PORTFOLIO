@@ -182,14 +182,10 @@ export default function App() {
             {toasts.map((toast) => (
               <div
                 key={toast.id}
-                className={`flex gap-3 bg-zinc-900/90 border border-white/10 p-5 rounded-2xl shadow-2xl backdrop-blur-md pointer-events-auto transition-all duration-300 max-w-sm ${
-                  toast.leaving ? 'opacity-0 -translate-x-10 scale-95' : 'opacity-100 translate-x-0 scale-100'
-                }`}
+                className={`flex gap-3 bg-zinc-900/90 border border-white/10 p-5 rounded-2xl shadow-2xl backdrop-blur-md pointer-events-auto transition-all duration-300 max-w-sm ${toast.leaving ? 'opacity-0 -translate-x-10 scale-95' : 'opacity-100 translate-x-0 scale-100'}`}
               >
-                <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 text-white ${
-                  toast.type === 'success' ? 'bg-green-600' : 'bg-red-600'
-                }`}>
-                  <span className="font-bold">{toast.type === 'success' ? '✓' : '!'}</span>
+                <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 text-white ${toast.type === 'success' ? 'bg-green-600' : 'bg-red-600'}`}>
+                  <span className="font-bold">{toast.type === 'success' ? '\u2713' : '!'}</span>
                 </div>
                 <div>
                   <strong className="block text-sm text-white">{toast.title}</strong>
@@ -200,7 +196,7 @@ export default function App() {
           </div>
 
           <div className="fixed right-6 bottom-6 z-40 flex flex-col gap-3">
-            
+            <a
               href="https://wa.me/919360317508?text=Hello%20Harshaa%2C%20I%20visited%20your%20portfolio."
               target="_blank"
               rel="noreferrer"
