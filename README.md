@@ -27,7 +27,7 @@ I build clean, responsive and functional user interfaces, and I occasionally con
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/githarsh7/HARSH-S-PORTFOLIO.git
+git clone https://github.com/githarsh7/HARSH-PORTFOLIO.git
 cd HARSH-S-PORTFOLIO
 npm install
 ```
