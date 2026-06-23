@@ -197,7 +197,7 @@ export default function App() {
 
           <div className="fixed right-6 bottom-6 z-40 flex flex-col gap-3">
             <a
-              href="https://wa.me/919360317508?text=Hello%20Harshaa%2C%20I%20visited%20your%20portfolio."
+              href="https://wa.me/919360317508?text=HI%20HARSHAA%2C%20I%20REVIEWED%20YOUR%20PROFILE%20AND%20WAS%20IMPRESSED%20BY%20YOUR%20SKILLS%20AND%20PROJECTS.%20WE%20HAVE%20AN%20EXCITING%20OPPORTUNITY%20THAT%20MATCHES%20YOUR%20BACKGROUND.%20I%E2%80%99D%20LOVE%20TO%20CONNECT%20AND%20DISCUSS%20IT%20FURTHER.%20LOOKING%20FORWARD%20TO%20HEARING%20FROM%20YOU."
               target="_blank"
               rel="noreferrer"
               aria-label="Contact on WhatsApp"
