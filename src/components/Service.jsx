@@ -10,42 +10,42 @@ const servicesData = [
     tag: "Corporate",
     color: "#648c11",
     description: "Corporate websites optimized for conversion and premium branding.",
-    image: "https://themewagon.com/wp-content/uploads/2025/09/florafauna.webp"
+    image: "https://i.pinimg.com/736x/18/43/16/18431673a51c54a2ed850a2ac9c46bb4.jpg"
   },
   {
     title: "Admin Dashboard",
     tag: "SaaS",
     color: "#ff4500",
     description: "Advanced dashboards with analytics and data visualization.",
-    image: "https://thereportinghub.com/assets/images/operational-efficiency-dashboard.svg"
+    image: "https://i.pinimg.com/1200x/53/8c/93/538c938b0f2f6c2fd919e1775c2d85d2.jpg"
   },
   {
     title: "E-Commerce Store",
     tag: "Retail",
     color: "#000080",
     description: "Luxury online shopping experiences with seamless checkout.",
-    image: "https://themewagon.com/wp-content/uploads/2023/02/cycle.png"
+    image:"https://i.pinimg.com/1200x/e0/90/e4/e090e4ee77888b2ca9c9d97f303621e3.jpg"
   },
   {
     title: "Full Stack Web App",
     tag: "App",
     color: "#ff0000",
     description: "Scalable web applications with powerful backend systems.",
-    image: "https://wallpaperaccess.com/full/9464177.jpg"
+    image: "https://i.pinimg.com/1200x/12/c5/a0/12c5a0c1637b76464d77945aa3b5d77a.jpg"
   },
   {
     title: "Portfolio Website",
     tag: "Creative",
     color: "#eab308", 
     description: "High-end portfolio experiences for creators and agencies.",
-    image: "https://themewagon.com/wp-content/uploads/2022/12/Meyawo.png"
+    image: "https://i.pinimg.com/1200x/f6/39/36/f63936cd1f42671adcdd554d51c0446e.jpg"
   },
   {
     title: "Website Redesign",
     tag: "Design",
     color: "#71717a", 
     description: "Modern redesigns with immersive animations and premium UI.",
-    image: "https://www.iwantclarity.com/wp-content/uploads/2018/10/Website-Redesign-More-Than-Just-Aesthetics@2x-100.jpg"
+    image: "https://i.pinimg.com/736x/73/2f/6d/732f6dbac1eadd8c7a3b2d4775344a75.jpg"
   }
 ];
 
