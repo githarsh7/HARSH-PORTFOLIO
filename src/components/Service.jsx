@@ -10,42 +10,42 @@ const servicesData = [
     tag: "Corporate",
     color: "#648c11",
     description: "Corporate websites optimized for conversion and premium branding.",
-    image: "https://i.pinimg.com/736x/18/43/16/18431673a51c54a2ed850a2ac9c46bb4.jpg"
+    image: "https://i.pinimg.com/1200x/d2/41/f4/d241f4ecda335cdeeb3f636fc282895a.jpg"
   },
   {
     title: "Admin Dashboard",
     tag: "SaaS",
     color: "#ff4500",
     description: "Advanced dashboards with analytics and data visualization.",
-    image: "https://i.pinimg.com/1200x/53/8c/93/538c938b0f2f6c2fd919e1775c2d85d2.jpg"
+    image: "https://i.pinimg.com/736x/5e/f3/fb/5ef3fb99440b7de8d21fc0c907d10301.jpg"
   },
   {
     title: "E-Commerce Store",
     tag: "Retail",
     color: "#000080",
     description: "Luxury online shopping experiences with seamless checkout.",
-    image:"https://i.pinimg.com/1200x/e0/90/e4/e090e4ee77888b2ca9c9d97f303621e3.jpg"
+    image:"https://i.pinimg.com/1200x/07/38/15/07381595973337953639c18cffd0b3e0.jpg"
   },
   {
     title: "Full Stack Web App",
     tag: "App",
     color: "#ff0000",
     description: "Scalable web applications with powerful backend systems.",
-    image: "https://i.pinimg.com/1200x/12/c5/a0/12c5a0c1637b76464d77945aa3b5d77a.jpg"
+    image: "https://i.pinimg.com/736x/74/13/d1/7413d171bd64d8c44e29e9a18a5d1260.jpg"
   },
   {
     title: "Portfolio Website",
     tag: "Creative",
     color: "#eab308", 
     description: "High-end portfolio experiences for creators and agencies.",
-    image: "https://i.pinimg.com/1200x/f6/39/36/f63936cd1f42671adcdd554d51c0446e.jpg"
+    image: "https://i.pinimg.com/1200x/49/ad/70/49ad7079f12fc543ece8ca6ea0f2df0f.jpg"
   },
   {
     title: "Website Redesign",
     tag: "Design",
     color: "#71717a", 
     description: "Modern redesigns with immersive animations and premium UI.",
-    image: "https://i.pinimg.com/736x/73/2f/6d/732f6dbac1eadd8c7a3b2d4775344a75.jpg"
+    image: "https://i.pinimg.com/1200x/4a/10/8d/4a108df778fde749a4c9896680f4b84a.jpg"
   }
 ];
 
