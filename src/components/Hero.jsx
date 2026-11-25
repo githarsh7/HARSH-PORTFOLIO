@@ -163,7 +163,7 @@ export default function Hero() {
 
             <div className="w-full h-full rounded-[2rem] overflow-hidden bg-zinc-950 border border-white/5 relative">
               <img
-                src="/assets/Professional-Harsh.jpg"
+                src="/assets/Professional-Harsh.png"
                 alt="Harshaa SG"
                 className="w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700 ease-out"
               />

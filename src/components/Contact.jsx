@@ -66,7 +66,7 @@ export default function Contact({ onShowToast }) {
             </h3>
           </div>
           <p className="text-zinc-400 text-base md:text-lg leading-relaxed max-w-md">
-            Have a project, idea, or collaboration in mind? I'm open to full-stack development opportunities and creative tech work. Don't hesitate to reach out!
+            Have a project, idea or collaboration in mind? I'm open to full-stack development opportunities and creative tech work. Don't hesitate to reach out!
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
